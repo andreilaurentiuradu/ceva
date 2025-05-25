@@ -3,7 +3,8 @@
 
 [toolchain]
 # The rust channel to be used.
-channel = "1.85"
+channel = "stable"
+version = "1.85"
 # The additional componets to be installed along the Rust toolchain.
 components = ["rust-src", "rustfmt", "rust-analyzer", "llvm-tools", "clippy"]
 # The targets for compilation that need to be added. This is used for
